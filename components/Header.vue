@@ -58,13 +58,13 @@ export default {
   },
   methods: {
     logout () {
-      console.log('logout')
+
     },
     handleCommand (command) {
       return this[command]()
     },
     info () {
-      console.log('info')
+
     }
   }
 }
