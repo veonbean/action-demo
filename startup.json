@@ -1,0 +1,7 @@
+{
+  "name": "nuxt-test",
+  "script": "./server/index.js",
+  "instances": 0,
+  "exec_mode": "cluster",
+  "max_memory_restart": "1024M"
+}

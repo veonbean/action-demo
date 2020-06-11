@@ -1,0 +1,26 @@
+@import './context';
+body .el-scrollbar__wrap {
+  overflow-x: hidden;
+}
+.header {
+  height: @header-height;
+  padding: 0 @padding-side;
+  line-height: @header-height;
+  .search-bar {
+    .el-input__inner {
+      border-radius: 20px;
+    }
+  }
+}
+.container {
+  margin: 0 auto;
+  height: calc(100vh - @header-height);
+  padding-top: 8vh;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  flex-direction: column;
+  .card-bar {
+    padding: 0 8vw;
+  }
+}
