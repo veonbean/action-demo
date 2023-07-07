@@ -33,7 +33,7 @@
     "jest": "^24.1.0",
     "less-loader": "^6.1.0",
     "nodemon": "^1.18.9",
-    "stylelint": "^10.1.0",
+    "stylelint": "^15.10.1",
     "vue-jest": "^4.0.0-0"
   },
   "homepage": "https://veonbean.github.io/action-demo"
